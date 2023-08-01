@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #2c2626, #814232);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 104px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(8, 8, 8, 0.7);
+    height: 700px;
+    width: fit-content;
+    padding: 40px 40px;
+    background: linear-gradient(45deg, #bbbbd1, #121214);
+    color: white;
+}
+
+
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#input1,
+#input2 {
+    margin-top: 10px;
+    height: 30px;
+    width: 325px;
+    text-align: center;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: white;
+    color: rgb(62, 128, 76);
+    font-weight: 700;
+    outline: none;
+    text-decoration: none;
+    background: transparent;
+}
+
+#input1:hover {
+    color: greenyellow;
+
+    font-size: 50px;
+}
+
+#input2:hover {
+    color: rgb(6, 6, 124);
+    font-size: 50px;
+}
+
+input::placeholder {
+    color: white;
+    cursor: pointer;
+}
+
+input:hover::placeholder {
+    font-size: 20px;
+}
+
+#input2 {
+    color: rgb(85, 90, 155);
+}
+
+.btn-danger {
+    width: 100px;
+
+}
+
+.btn-danger:hover {
+    background-color: gainsboro;
+    border: none;
+    color: red;
+}
+
+.btn-primary:hover {
+    background-color: gainsboro;
+    border: none;
+    color: rgb(61, 61, 139);
+}
+
+.btn-success:hover {
+    background-color: gainsboro;
+    border: none;
+    color: green;
+}
+
+#c {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+    font-size: 48px;
+    color: rgb(37, 71, 134);
+    animation-name: Celcius;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternative;
+    animation-timing-function: ease-in-out;
+    margin-left: -90px;
+
+}
+
+.con {
+    display: flex;
+    flex-direction: row;
+}
+
+#c:hover {
+    color: blue;
+    cursor: pointer;
+    rotate: -45deg;
+    font-size: 60px;
+}
+
+#f {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+    font-size: 48px;
+    color: rgb(32, 150, 62);
+    margin-left: -80px;
+    animation-name: Farenheit;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternative;
+    animation-timing-function: ease-in-out;
+}
+
+#f:hover {
+    color: rgb(5, 253, 38);
+    cursor: pointer;
+    font-size: 60px;
+    rotate: -45deg;
+}
+
+h1:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 44px;
+}
+
+#bharat:hover {
+    color: orange;
+}
+
+#name:hover {
+    color: rgb(121, 209, 250);
+}
+
+#name,
+#bharat {
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+#line {
+    color: #bbbbd1;
+    margin-top: 20px;
+}
+
+#line:hover {
+    color: aquamarine;
+}
+
+#res {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+#res:hover {
+    color: black;
+    font-size: 28px;
+}
+
+.con2 {
+    display: flex;
+    flex-direction: row;
+}
